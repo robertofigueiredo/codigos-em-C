@@ -1,0 +1,197 @@
+BANIN CODIGOS	
+
+Área de um circulo
+
+#include <stdio.h>
+#include <math.h>
+
+
+int main(){
+	
+	double raio = 0;
+	double area = 0;
+	double n = 3.14159;
+	
+	scanf("%lf", &raio);
+		
+	area = n*pow(raio,2);
+	
+	printf("A = %.4lf\n", area);	
+	
+	return 0;
+}
+
+------------------------------------------------------------------------------------
+Soma simples
+
+#include <stdio.h>
+
+int main(){
+	
+	int A = 0;
+	int B = 0;
+	int SOMA = 0;
+	
+	scanf("%d", &A);
+	scanf("%d", &B);
+
+	SOMA = A+B;
+	
+	printf("SOMA = %d  \n", SOMA);	
+	
+	return 0;
+}
+
+--------------------------------------------------------------------------------------
+
+Produto simples
+
+#include <stdio.h>
+
+int main(){
+	
+	int A = 0;
+	int B = 0;
+	int PROD = 0;
+	
+	scanf("%d", &A);
+	scanf("%d", &B);
+
+	PROD = A*B;
+	
+	printf("PROD = %d\n",PROD);	
+	
+	return 0;
+}
+
+--------------------------------------------------------------------------------------
+
+Média 1
+
+#include <stdio.h>
+
+int main(){
+	
+	double A = 0;
+	double B = 0;
+	double MEDIA = 0;
+	
+	scanf("%lf", &A);
+	scanf("%lf", &B);
+
+	
+
+	MEDIA = (A*3.5+B*7.5)/11;
+	
+	printf("MEDIA = %.5lf\n",MEDIA);	
+	
+	return 0;
+}
+
+------------------------------------------------------------------------------------
+
+Média 2
+
+#include <stdio.h>
+
+int main(){
+	
+	double A = 0;
+	double B = 0;
+	double C = 0;
+	double MEDIA = 0;
+	
+	scanf("%lf", &A);
+	scanf("%lf", &B);
+	scanf("%lf", &C);
+
+	
+
+	MEDIA = (A*2+B*3+C*5)/10;
+	
+	printf("MEDIA = %.1lf\n",MEDIA);	
+	
+	return 0;
+}
+
+--------------------------------------------------------------------------------------
+Diferença
+
+#include <stdio.h>
+
+int main(){
+	
+	int A = 0;
+	int B = 0;
+	int C = 0;
+	int D = 0;
+	int DIFERENCA = 0;
+	
+	scanf("%d", &A);
+	scanf("%d", &B);
+	scanf("%d", &C);
+	scanf("%d", &D);
+	
+
+	DIFERENCA = (A*B - C*D);
+	
+	printf("DIFERENCA = %d\n",DIFERENCA);	
+	
+	return 0;
+}
+
+----------------------------------------------------------------------------------------
+salário 
+
+#include <stdio.h>
+
+int main(){
+	
+	int A = 0;
+	int B = 0;
+	double C = 0;
+	double SALARY =0;
+	
+	scanf("%d", &A);
+	scanf("%d", &B);
+	scanf("%lf", &C);
+	
+	SALARY = B*C;
+	
+	printf("NUMBER = %d\n",A);
+	printf("SALARY = U$ %.2lf\n",SALARY);	
+	
+	return 0;
+}
+
+----------------------------------------------------------------------------------------
+
+salário com bonus
+
+#include <stdio.h>
+
+int main(){
+	
+	char nome[] ="PEDRO";
+	double B = 0;
+	double C = 0;
+	double TOTAL = 0;
+	
+	scanf("%s", &nome);
+	scanf("%lf", &B);
+	scanf("%lf", &C);
+	
+	TOTAL = B + C*0.15;
+	
+	printf("TOTAL = R$ %.2lf\n", TOTAL);
+	
+	return 0;
+}
+
+-----------------------------------------------------------------------------------------
+
+lanche
+
+
+
+
