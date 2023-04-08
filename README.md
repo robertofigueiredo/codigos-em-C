@@ -1,2 +1,2 @@
-# Cdigos em C
+# Códigos em C
 Apenas alguns códigos
